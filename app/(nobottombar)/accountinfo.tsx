@@ -1,10 +1,12 @@
-import React from 'react'
-import { View } from 'react-native'
+import React from "react";
+import { Text, View } from "react-native";
 
 const AccountInfo = () => {
   return (
-    <View>Account info</View>
-  )
-}
+    <View>
+      <Text>Account info</Text>
+    </View>
+  );
+};
 
-export default AccountInfo
+export default AccountInfo;

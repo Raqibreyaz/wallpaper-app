@@ -1,13 +1,14 @@
 import { Link, Slot } from 'expo-router'
 import React from 'react'
 import { View } from 'react-native'
+import { SafeAreaView } from 'react-native-safe-area-context'
 
 function Layout() {
   return (
-   <View>
-    <Link href={"/"}>Go Back</Link>
+   <SafeAreaView>
+    {/* <Link href={"/"}>Go Back</Link> */}
     <Slot/>
-   </View>
+   </SafeAreaView>
   )
 }
 
